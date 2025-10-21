@@ -26,7 +26,7 @@ If applying surfaces in a xml file, you can use multiple surfaces in a element's
 The bottom surface will be layed on-top of the top surface; in this case, the black outline will be on-top of the gray flat
 
 # Nine-Patch Textures
-"Nine-Patch Textures" is an API within OwoLib that dynamically produces, or "draws" a background from a texture and nine-patch json file, by applying "patches" of a texture (a sampled section of the texture)
+"Nine-Patch Textures" is an API within OwoLib that dynamically produces, or "draws" a background from a texture and nine-patch json file, by applying and stretching "patches" of a texture (a sampled section of the texture)
 They are primarily used for drawing textured surfaces in UI created through OwoLib. 
 
 ![nine-patch texture](panel.png)
